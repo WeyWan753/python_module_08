@@ -32,7 +32,7 @@ def main() -> None:
     print(f"Virtual Environment: {os.path.basename(sys.prefix)}")
     print(f"Environment Path: {sys.prefix}")
     print()
-    
+
     print("SUCCESS: You're in an isolated environment!")
     print("Safe to install packages without affecting")
     print("the global system.")
@@ -40,8 +40,6 @@ def main() -> None:
 
     print("Package installation path:")
     print(site.getsitepackages()[0])
-
-
 
 
 if __name__ == "__main__":
