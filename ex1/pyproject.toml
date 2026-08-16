@@ -1,21 +1,18 @@
 [project]
 name = "ex1"
 version = "0.1.0"
-description = "Exercise 1"
+description = ""
 authors = [
     {name = "WeyWan753",email = "syahmiazman753@gmail.com"}
 ]
-requires-python = ">=3.14"
+requires-python = ">=3.13"
 dependencies = [
+    "numpy (>=2.5.2,<3.0.0)",
     "pandas (>=3.0.5,<4.0.0)",
-    "matplotlib (>=3.11.1,<4.0.0)",
-    "numpy (>=2.5.2,<3.0.0)"
+    "matplotlib (>=3.11.1,<4.0.0)"
 ]
 
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
-
-[tool.poetry]
-package-mode = false
